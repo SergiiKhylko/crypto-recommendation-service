@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  crypto-recommendation:
+    container_name: crypto-recommendation
+    build: ./
+    ports:
+      - 8080:8080
